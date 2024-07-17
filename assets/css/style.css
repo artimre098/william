@@ -970,7 +970,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #FABC3D;
+	color: #4146a4;
 }
 
 button,
@@ -1073,12 +1073,12 @@ select {
 
 ::-moz-selection {
 	color: #FFFFFF;
-	background-color: #FABC3D;
+	background-color: #00FFFF;
 }
 
 ::selection {
 	color: #FFFFFF;
-	background-color: #FABC3D;
+	background-color: #00FFFF;
 }
 
 .slick-slide > div > div {
@@ -1655,7 +1655,7 @@ select {
 }
 
 .off-canvas-contact-widget .header-contact-info__list li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .off-canvas-contact-widget .header-contact-info__list li:last-child {
@@ -1800,7 +1800,7 @@ select {
 }
 
 .offcanvas-navigation > ul > li > a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .offcanvas-navigation ul.sub-menu-mobile {
@@ -1815,7 +1815,7 @@ select {
 }
 
 .offcanvas-navigation ul.sub-menu-mobile > li > a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .offcanvas-navigation ul li.menu-item-has-children {
@@ -1878,7 +1878,7 @@ select {
 }
 
 .off-canvas-widget-social a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 /* offcanvas settings */
@@ -2000,7 +2000,7 @@ select {
 }
 
 .footer-widget__menu li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .footer-widget .social-icons li {
@@ -2025,7 +2025,7 @@ select {
 }
 
 .footer-widget .social-icons li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 /* footer contact */
@@ -2188,7 +2188,7 @@ select {
 }
 
 .sidebar-list li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 /*-- Sidebar Blog --*/
@@ -2240,7 +2240,7 @@ select {
 }
 
 .sidebar-blog .content h5 a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .sidebar-blog .content span {
@@ -2275,8 +2275,8 @@ select {
 
 .sidebar-tag li a:hover {
 	color: #FFFFFF;
-	border-color: #FABC3D;
-	background-color: #FABC3D;
+	border-color: #00FFFF;
+	background-color: #00FFFF;
 }
 
 /*=====  End of Sidebar  ======*/
@@ -2512,7 +2512,7 @@ select {
 }
 
 .page-breadcrumb-links li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 /*=====  End of breadcrumb  ======*/
@@ -2591,7 +2591,7 @@ select {
 }
 
 .page-pagination li:first-child a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .page-pagination li:last-child a {
@@ -2611,7 +2611,7 @@ select {
 }
 
 .page-pagination li:last-child a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 /*=====  End of pagination  ======*/
@@ -2963,7 +2963,7 @@ select {
 }
 
 .service-grid-item__content .title a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .service-grid-item__content .subtitle {
@@ -3386,7 +3386,7 @@ select {
 }
 
 .blog-post-slider__content .post-title a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .blog-post-slider__content .post-category {
@@ -3458,7 +3458,7 @@ select {
 }
 
 .blog-details .blog-inner .content .meta li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .blog-details .blog-inner .content .title {
@@ -3474,7 +3474,7 @@ select {
 }
 
 .blog-details .blog-inner .content .title a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .blog-details .blog-inner .content .desc {
@@ -3530,7 +3530,7 @@ select {
 }
 
 .blog-details .blog-inner .content .tags li a:hover {
-	color: #FABC3D;
+	color: #00FFFF;
 }
 
 .blog-gallery {
@@ -3669,33 +3669,34 @@ blockquote.blockquote .author {
 	padding: 20px;
 	padding-right: 150px;
 	color: #2B2D37;
-	border: 1px solid #9D7A32;
+	/* border: 1px solid #9D7A32; */
+	border: none;
 	background-color: transparent;
 }
 
 .newsletter-form input::-webkit-input-placeholder {
 	font-weight: 500;
-	color: #2B2D37;
+	color: rgb(211, 206, 206);
 }
 
 .newsletter-form input::-moz-placeholder {
 	font-weight: 500;
-	color: #2B2D37;
+	color: rgb(211, 206, 206);
 }
 
 .newsletter-form input:-ms-input-placeholder {
 	font-weight: 500;
-	color: #2B2D37;
+	ccolor: rgb(211, 206, 206);
 }
 
 .newsletter-form input::-ms-input-placeholder {
 	font-weight: 500;
-	color: #2B2D37;
+	color: rgb(211, 206, 206);
 }
 
 .newsletter-form input::placeholder {
 	font-weight: 500;
-	color: #2B2D37;
+	color: rgb(211, 206, 206);
 }
 
 .newsletter-form button {
@@ -3709,7 +3710,7 @@ blockquote.blockquote .author {
 	-o-transition: 0.3s;
 	transition: 0.3s;
 	border: none;
-	border-left: 1px solid #9D7A32;
+	/* border-left: 1px solid #9D7A32; */
 	background-color: transparent;
 }
 
