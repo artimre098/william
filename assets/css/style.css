@@ -1478,7 +1478,8 @@ select {
 	height: 50px;
 	margin-left: 25px;
 	padding-left: 20px;
-	border-left: 1px dashed #2B2D37;
+	border-left: 1px dashed white;
+	color: white;
 }
 
 .nav-search-icon button {
@@ -7599,7 +7600,9 @@ html {
 }
 
 
-
+a {
+    text-decoration: none !important;
+}
 
 
 

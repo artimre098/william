@@ -42,35 +42,23 @@
    <script src="/path/to/dist/beforeafter.min.js"></script>
    <!-- Include any additional CSS here if needed -->
    <link rel="stylesheet" href="styles.css">
+
+
+
+
+     <!-- bootstrap link: -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- twentytwenty css link -->
+  <link rel="stylesheet" href="assets/css/beforeAndAfter/twentytwenty.css">
+  <!-- jq cdn -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/beforeAndAfter/style.css">
      
 </head>
 <body>
     <!--====================  header area ====================-->
-    <div class="header-area header-sticky bg-img d-none d-lg-block">
-        <!-- header top -->
-        <!-- <div class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="header-top-info">
-                            <span class="header-top-info__image pr-1"><img src="assets/img/icons/phone.png" alt=""></span>
-                            <span class="header-top-info__text">01225 265 847</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="header-top-info text-center">
-                            <span class="header-top-info__image pr-1"><img src="assets/img/icons/clock.png" alt=""></span>
-                            <span class="header-top-info__text">9.00 am - 11.00 pm</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="header-top-info text-right">
-                            <a class="header-top-info__link" href=""><span>Login</span></a> / <a class="header-top-info__link" href="">Register</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+    <div class="header-area header-sticky bg-img d-none d-lg-block" style="border: 2px solid;">
         <!-- menu bar -->
         <div class="menu-bar position-relative">
             <div class="container">
@@ -87,76 +75,43 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-10">
+
                                         <div class="navigation-area d-flex justify-content-end align-items-center">
                                             <!-- navigation menu -->
                                             <nav class="main-nav-menu">
-                                                <ul class="d-flex justify-content-end">
-                                                    <li> <!--class="has-sub-menu" -->
+                                                <ul class="d-flex mb-0">
+                                                    <li>
                                                         <a style="color: white;" href="index.html">Home</a>
-                                                        <!-- <ul class="sub-menu">
-                                                            <li><a href="index.html">Home One</a></li>
-                                                            <li><a href="index-2.html">Home Two</a></li>
-                                                        </ul> -->
                                                     </li>
-                                                    <li><a style="color: white;" href="#about">About</a></li>
+                                                    <li>
+                                                        <a style="color: white;" href="#about">About</a>
+                                                    </li>
                                                     <li>
                                                         <a style="color: white;" href="#service">Service</a>
-                                                        <!-- <ul class="sub-menu">
-                                                            <li><a href="service.html">Service Page</a></li>
-                                                            <li><a href="service-details.html">Service Details Left Sidebar</a></li>
-                                                            <li><a href="service-details-right-sidebar.html">Service Details Right Sidebar</a></li>
-                                                            <li class="has-sub-menu">
-                                                                <a href="#">Submenu Level One</a>
-                                                                <ul class="sub-menu">
-                                                                    <li><a href="#">Submenu Level Two</a></li>
-                                                                    <li><a href="#">Submenu Level Two</a></li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul> -->
                                                     </li>
                                                     <li>
                                                         <a style="color: white;" href="#project">Project</a>
-                                                        <!-- <ul class="sub-menu">
-                                                            <li><a href="project.html">Project Page</a></li>
-                                                            <li><a href="project-details.html">Project Details</a></li>
-                                                        </ul> -->
                                                     </li>
                                                     <li>
                                                         <a style="color: white;" href="#blog">Blog</a>
-                                                        <!-- <ul class="sub-menu">
-                                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                            <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                                            <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                                            <li class="has-sub-menu">
-                                                                <a href="#">Submenu Level One</a>
-                                                                <ul class="sub-menu">
-                                                                    <li class="has-sub-menu">
-                                                                        <a href="#">Submenu Level Two</a>
-                                                                        <ul class="sub-menu">
-                                                                            <li><a href="#">Submenu Level Three</a></li>
-                                                                            <li><a href="#">Submenu Level Three</a></li>
-                                                                        </ul>
-                                                                    </li>
-                                                                    <li><a href="#">Submenu Level Two</a></li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul> -->
                                                     </li>
-                                                    <li><a style="color: white;" href="#contact">Contact</a></li>
+                                                    <li>
+                                                        <a style="color: white;" href="#contact">Contact</a>
+                                                    </li>
                                                 </ul>
                                             </nav>
                                             <!-- search icon nav menu -->
                                             <div class="nav-search-icon">
-                                                <button class="header-search-toggle"><i style="color: white;" class="fa fa-search"></i></button>
+                                                <button class="header-search-toggle"><i class="fa fa-search"></i></button>
                                                 <div class="header-search-form">
                                                     <form action="#">
                                                         <input type="text" placeholder="Type and hit enter">
-                                                        <button ><i style="color: white;" class="fa fa-search"></i></button>
+                                                        <button><i class="fa fa-search"></i></button>
                                                     </form>
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -203,58 +158,23 @@
                 <nav class="offcanvas-navigation">
                     <ul>
                         <li class="menu-item-has-children">
-                            <a href="#">Home</a>
-                            <!-- <ul class="sub-menu-mobile">
-                                <li><a href="index.html">Homepage One</a></li>
-                                <li><a href="index-2.html">Homepage Two</a></li>
-                            </ul> -->
+                            <a href="">Home</a>
+                           
                         </li>
                         <li><a href="">About</a></li>
                         <li class="menu-item-has-children">
-                            <a href="">Service</a>
-                            <!-- <ul class="sub-menu-mobile">
-                                <li><a href="service.html">Service Page</a></li>
-                                <li><a href="service-details.html">Service Details Left Sidebar</a></li>
-                                <li><a href="service-details-right-sidebar.html">Service Details Right Sidebar</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Submenu Level One</a>
-                                    <ul class="sub-menu-mobile">
-                                        <li><a href="#">Submenu Level Two</a></li>
-                                        <li><a href="#">Submenu Level Two</a></li>
-                                    </ul>
-                                </li>
-                            </ul> -->
+                            <a href="#service">Service</a>
+                           
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="">Project</a>
-                            <!-- <ul class="sub-menu-mobile">
-                                <li><a href="project.html">Project Page</a></li>
-                                <li><a href="project-details.html">Project Details</a></li>
-                            </ul> -->
+                            <a href="#prject">Project</a>
+                          
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="">Blog</a>
-                            <!-- <ul class="sub-menu-mobile">
-                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Submenu Level One</a>
-                                    <ul class="sub-menu-mobile">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Submenu Level Two</a>
-                                            <ul class="sub-menu-mobile">
-                                                <li><a href="#">Submenu Level Three</a></li>
-                                                <li><a href="#">Submenu Level Three</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Submenu Level Two</a></li>
-                                    </ul>
-                                </li>
-                            </ul> -->
+                            <a href="#blog">Blog</a>
+                           
                         </li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="offcanvas-widget-area">
@@ -292,7 +212,7 @@
                             <div class="hero-slider-content hero-slider-content--extra-space">
                                 <h3 class="hero-slider-content__subtitle">Trutex</h3>
                                 <h2 class="hero-slider-content__title space__bottom--50">We Construct your Dream in Live</h2>
-                                <a style="color: white;" href="" class="default-btn default-btn--hero-slider btn-new ">Contact Us</a>
+                                <a style="color: white;" href="#contact" class="default-btn default-btn--hero-slider btn-new ">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -306,7 +226,7 @@
                             <div class="hero-slider-content hero-slider-content--extra-space">
                                 <h3 class="hero-slider-content__subtitle">Trutex</h3>
                                 <h2 class="hero-slider-content__title space__bottom--50">We Construct your Dream in Live</h2>
-                                <a style="color: white;" href="" class="default-btn default-btn--hero-slider btn-new">Contact Us</a>
+                                <a style="color: white;" href="#contact" class="default-btn default-btn--hero-slider btn-new">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -321,7 +241,15 @@
             <div class="row align-items-center row-25">
                 <div class="col-md-6">
                     <div class="about-image space__bottom__lm--30">
-                        <img src="assets/img/about/about-one.JPG" class="img-fluid" alt="">
+
+                        <div class="about-image space__bottom__lm--30">
+                            <div style="width: 100% !important; height: 100% !important;" id="img2" class="twentytwenty-container box">
+                                <img src="assets/img/BeforeAfterimg/before.jpg" alt="top image">
+                                <img src="assets/img//BeforeAfterimg/after.jpg" alt="bottom image">
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -332,7 +260,7 @@
                             <h2 class="section-title__title">Provide the best quality service and construct</h2>
                         </div>
                         <p class="about-content__text space__bottom--40">Our expertise encompasses a comprehensive range of concrete construction services. We specialize in flat work, including driveways, patios, and sport courts, as well as advanced solutions such as heated driveways and basement walkouts. Additionally, we excel in footing and foundation work, curb and gutter installations, and all facets of residential concrete projects. Our portfolio extends to numerous successful commercial ventures. Moreover, as licensed general contractors, we undertake the construction of detached garages, home additions, and new builds with a commitment to quality and client satisfaction.</p>
-                        <a style="color: white;" href="" class="default-btn btn-new">Start now</a>
+                        <a style="text-decoration: none; color: white;" href="#contact" class="default-btn btn-new">Start now</a>
                     </div>
                 </div>
             </div>
@@ -406,7 +334,7 @@
                 <div class="col-xl-3 col-lg-5">
                     <!-- service banner -->
                     <div class="service-banner space__bottom__md--40 space__bottom__lm--40">
-                        <img src="assets/img/service/service-nine.JPG" class="float-none float-lg-right" style="width: 270px; height: 497px; object-fit: cover;" alt="">
+                        <img src="assets/img/service/service-nine.JPG" class="float-none float-lg-right" style="width: 255px; height: 497px; object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-xl-9 col-lg-7 mt-0 mt-lg-4">
@@ -477,7 +405,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!-- fun fact wrapper -->
-                    <div class="fun-fact-wrapper fun-fact-wrapper-bg bg-img" data-bg="assets/img/backgrounds/bg-final-two.jpg">
+                    <div  class="fun-fact-wrapper fun-fact-wrapper-bg bg-img" data-bg="assets/img/backgrounds/bg-final-two.jpg">
                         <div class="fun-fact-inner background-color--default-overlay background-repeat--x-bottom space__inner--y30 bg-img" data-bg="assets/img/icons/ruler-black.png" style="background-color: rgba(0, 0, 50, 0.8);">
                             <div class="fun-fact-content-wrapper">
                                 <div class="single-fun-fact">
@@ -509,13 +437,7 @@
     <!--====================== Start of Contact Section ======================-->
     <div id="contact" class="conact-section space__bottom--r120">
         <div class="container">
-            <!-- <div class="row">
-                <div class="col space__bottom--40">
-                    <div class="contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.22268960882!2d-118.69511008446011!3d34.0381583259191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e81fcf6add4e6b%3A0x2e40b4a05c4cc7a0!2sThe%20Business%20Agency!5e0!3m2!1sen!2sbd!4v1571570206192!5m2!1sen!2sbd"></iframe>
-                    </div>
-                </div>
-            </div> -->
+            
             <div class="row">
                 <div class="col-lg-4 col-12">
                     <div class="contact-information">
@@ -570,7 +492,7 @@
                 </div>
             </div>
         </div>
-        <div class="project-wrapper space__bottom--m5" id="project-justify-wrapper">
+        <div class=" container project-wrapper space__bottom--m5" id="project-justify-wrapper">
             <!-- Projects -->
             <div class="single-project-wrapper">
                 <a class="single-project-item" href="#" data-image="assets/img/projects/project-one.png">
@@ -626,77 +548,11 @@
 
     <!-- Modal -->
 <div id="image-modal" class="modal">
-    <span class="close">&times;</span>
+    <span style="color: white;" class="close">&times;</span>
     <img class="modal-content" id="modal-img">
 </div>
 
-    <!--====================  End of project area  ====================-->
-    <!--====================  team area ====================-->
-    <!-- <div class="team-area space__bottom--r120 position-relative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 space__bottom__md--40 space__bottom__lm--40">
-                    <div class="team-member-title-wrapper"> -->
-                        <!-- section title -->
-                        <!-- <div class="section-title space__bottom--30 space__bottom__md--30  space__bottom__lm--20">
-                            <h3 class="section-title__sub">Our Team</h3>
-                            <h2 class="section-title__title">Best & quality team member</h2>
-                        </div>
-                        <p class="team-text space__bottom--40 space__bottom__md--30 space__bottom__lm--20">Publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
-                        <a href="about.html" class="default-btn">View more</a>
-                    </div>
-                </div>
-                <div class="col-lg-8 team-slider-column-wrapper"> -->
-                    <!-- team member slider -->
-                    <!-- <div class="team-slider-wrapper row">
-                        <div class="single-team-member col text-center">
-                            <div class="single-team-member__image space__bottom--10">
-                                <img src="assets/img/team/team-member1.jpg" alt="">
-                            </div>
-                            <h5 class="single-team-member__name">Osthir Sholey</h5>
-                            <p class="single-team-member__des">Chief Engineer</p>
-                        </div>
-                        <div class="single-team-member col text-center">
-                            <div class="single-team-member__image space__bottom--10">
-                                <img src="assets/img/team/team-member2.jpg" alt="">
-                            </div>
-                            <h5 class="single-team-member__name">Smarto Jowly</h5>
-                            <p class="single-team-member__des">Chief Plamber</p>
-                        </div>
-                        <div class="single-team-member col text-center">
-                            <div class="single-team-member__image space__bottom--10">
-                                <img src="assets/img/team/team-member3.jpg" alt="">
-                            </div>
-                            <h5 class="single-team-member__name">Franky Moina</h5>
-                            <p class="single-team-member__des">Chief Electrician</p>
-                        </div>
-                        <div class="single-team-member col text-center">
-                            <div class="single-team-member__image space__bottom--10">
-                                <img src="assets/img/team/team-member4.jpg" alt="">
-                            </div>
-                            <h5 class="single-team-member__name">Navira Pareyo</h5>
-                            <p class="single-team-member__des">Chief Architect</p>
-                        </div>
-                        <div class="single-team-member col text-center">
-                            <div class="single-team-member__image space__bottom--10">
-                                <img src="assets/img/team/team-member5.jpg" alt="">
-                            </div>
-                            <h5 class="single-team-member__name">Tandur Belali</h5>
-                            <p class="single-team-member__des">Engineer</p>
-                        </div>
-                        <div class="single-team-member col text-center">
-                            <div class="single-team-member__image space__bottom--10">
-                                <img src="assets/img/team/team-member4.jpg" alt="">
-                            </div>
-                            <h5 class="single-team-member__name">John Doe</h5>
-                            <p class="single-team-member__des">Site Engineer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--====================  End of team area  ====================-->
+   
     <!--====================  testimonial cta area ====================-->
     <div class="testimonial-cta-area space__bottom--r120">
         <div class="container">
@@ -966,6 +822,12 @@
         </div>
     </div>
 
+
+
+
+
+
+
     <!-- click show images -->
     <script src="assets/js/click-show-img.js"></script>
     <!--====================  End of footer area  ====================-->
@@ -1006,5 +868,18 @@
     -->
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+
+
+    <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <!-- twentytwenty script -->
+  <script src="assets/js/beforeAfterJS/jquery.twentytwenty.js"></script>
+  <script src="assets/js/beforeAfterJS/jquery.event.move.js"></script>
+  <!-- bootstrap scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/beforeAfterJS/script.js"></script>
 </body>
 </html>
