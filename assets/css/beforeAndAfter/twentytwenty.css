@@ -27,9 +27,9 @@
   height: 100%; }
 
 .twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s; }
 
 .twentytwenty-before-label, .twentytwenty-after-label {
   -webkit-transition-property: opacity;

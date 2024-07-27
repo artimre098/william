@@ -1802,7 +1802,7 @@ select {
 	font-weight: 600;
 	line-height: 1.2;
 	padding: 10px 0;
-	color: #111;
+	color: #111 !important;
 }
 
 .offcanvas-navigation > ul > li > a:hover {
@@ -7668,3 +7668,9 @@ a {
 .btn-btn-new:hover {
 	background-color: #112a43 !important;
 }
+
+
+
+
+
+
