@@ -539,7 +539,20 @@
             /*=====  End of light gallery active  ======*/
             
             
-
+            function showOverlay(imageSrc) {
+                var overlay = document.getElementById('overlay');
+                var overlayImage = document.getElementById('overlayImage');
+            
+                overlayImage.src = imageSrc;
+                overlay.style.display = 'flex';
+            }
+            
+            function closeOverlay() {
+                var overlay = document.getElementById('overlay');
+                overlay.style.display = 'none';
+            }
+            
+            
     });
     
 })(jQuery);
